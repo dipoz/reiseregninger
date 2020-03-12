@@ -1,0 +1,70 @@
+
+.status {
+  text-align: center;
+}
+
+
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+#select {
+  position: relative;
+}
+
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+
+/* Style the footer */
+#sticky-footer {
+  flex-shrink: none;
+}
+
+.container {
+  min-height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1 0 auto;
+}
+
+
+.datepicker {
+            font-size: 0.875em;
+        }
+
+header.header {
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+table, th, td {
+border-collapse: collapse;
+      }
+
+table {
+margin-top: 30px;
+      }
+th, td {
+padding: 15px;
+text-align: left;
+      }
+#table td {
+text-align: center;
+height: 70px;
+}
